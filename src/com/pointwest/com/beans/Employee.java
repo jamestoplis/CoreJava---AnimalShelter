@@ -12,4 +12,8 @@ public class Employee {
 	public int getEmployeeId() {
 		return employeeId;
 	}
+
+	public String greet() {
+		System.out.println( "WHAAZZAAAAAP" );
+	}
 }
