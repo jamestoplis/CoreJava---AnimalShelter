@@ -4,6 +4,7 @@ public class Employee {
 
 	public Employee() {
 		this.id = 1;
+		this.firstName = "awts";
 	}
 
 	public void setId( int id ) {
