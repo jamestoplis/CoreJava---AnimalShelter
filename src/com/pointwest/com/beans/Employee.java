@@ -1,18 +1,18 @@
 public class Employee {
-	private int id;
+	private int employeeId;
 	private String firstName;
 
 	public Employee() {
-		this.id = 1;
+		this.employeeId = 1;
 		this.firstName = "Andres";
 	}
 
-	public void setId( int id ) {
-		this.id = id;
+	public void setEmployeeId( int employeeId ) {
+		this.employeeId = employeeId;
 	}
 
-	public int getId() {
-		return id;
+	public int getEmployeeId() {
+		return employeeId;
 	}
 
 	public void setFirstName( String firstName ) {
